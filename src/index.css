@@ -1,0 +1,4 @@
+@import url('./styles/FlightWidget.css');
+
+* { padding: 0px; margin: 0px; box-sizing: border-box; }
+body { background-color: rgb(246, 250, 7); } 

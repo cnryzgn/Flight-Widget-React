@@ -1,0 +1,110 @@
+.flight-widget-container {
+    width: 95%;
+    max-width: 1050px;
+    padding: 20px;
+    background-color: #000;
+    border-radius: 5px;
+    color: #eee;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 100px auto;
+    font-size: 1rem;
+}
+
+.flight-widget-container > .head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flight-widget-container > .head > h1 {
+    margin-bottom: 13px;
+}
+
+#time {
+    font-size: 1.7rem;
+    font-weight: bold;
+    padding: 2px;
+    margin-right: 5px;
+    margin-bottom: 13px;
+    border-radius: 2px;
+}
+
+.flight-widget-container > table {
+    width: 100%;
+    background-color: #222;
+    border-radius: 2px;
+    font-weight: bold;
+}
+
+.flight-widget-container > table > thead th {
+    text-align: left;
+    padding: 20px 10px;
+}
+
+
+.flight-widget-container > table  td {
+    text-align: left;
+}
+
+.letters {
+    display: inline-block;
+    padding: 5px;
+    margin-right: 8px;
+    background-color: #000;
+    color: rgb(236, 240, 33); 
+    opacity: 0;
+    margin-bottom: 15px;
+}
+
+.responsive-label { 
+    display: none;
+    background-color: #000;
+    padding: 5px;
+    margin-right: 8px;
+    margin-bottom: 15px;
+}
+
+@keyframes flip {
+    from { transform: scaleX(-100%);  }
+    50%  { transform: scaleX(0%); }
+    to   { transform: scaleX(100%);  }
+}
+
+@media (max-width: 1000px) {
+    .flight-widget-container > table th { display: none; }
+
+    .flight-widget-container { 
+        margin: 15px auto;
+        overflow-y: auto;
+    }
+    
+    .flight-data {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 12px;
+        border-bottom: 1px solid #fff;
+    }
+
+
+    .letters {
+        background-color: #222 !important;
+        display: inline-block;
+        margin-right: 0px;
+        word-wrap: break-word;
+    }
+    
+    .responsive-label {
+        background-color: #000 !important;
+        display: inline-flex;
+        justify-content: space-between;
+        min-width: 40%;
+        word-wrap: break-word;
+    }
+
+
+    .responsive-label {
+        background-color: #222 !important;
+    }
+    
+}
