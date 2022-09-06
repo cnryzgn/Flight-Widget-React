@@ -1,8 +1,8 @@
 # Flight-Widget-React
 
 ## Links
-* (Screenshots)[https://github.com/cnryzgn/Flight-Widget-React#Screenshots]<br>
-* (Setup)[https://github.com/cnryzgn/Flight-Widget-React#Setup]<br>
+(Screenshots)[https://github.com/cnryzgn/Flight-Widget-React#Screenshots]<br>
+(Setup)[https://github.com/cnryzgn/Flight-Widget-React#Setup]<br>
 
 ## Screenshots
 ![](https://github.com/cnryzgn/Flight-Widget-React/blob/main/screenshots/flight-widget-1.png)
